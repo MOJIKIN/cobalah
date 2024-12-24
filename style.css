@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .wallet, .bet-container {
+    margin: 10px 0;
+  }
+  
+  .slot-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .slot {
+    font-size: 50px;
+    margin: 0 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  

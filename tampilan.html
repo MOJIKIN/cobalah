@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot Machine Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Slot Machine</h1>
+
+  <!-- Kolom Saldo dan Top Up -->
+  <div class="wallet">
+    <label for="balance">Balance: </label>
+    <span id="balance">10000</span>
+    <button onclick="topUp()">Top Up</button>
+  </div>
+
+  <!-- Kolom Taruhan -->
+  <div class="bet-container">
+    <label for="bet">Bet Amount:</label>
+    <input type="number" id="bet" value="500" min="1">
+  </div>
+
+  <!-- Slot Container -->
+  <div class="slot-container">
+    <div id="slot1" class="slot">🍒</div>
+    <div id="slot2" class="slot">🍋</div>
+    <div id="slot3" class="slot">🍇</div>
+  </div>
+
+  <!-- Tombol Spin -->
+  <button onclick="spin()">SPIN</button>
+
+  <!-- Area Hasil -->
+  <div id="result"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
